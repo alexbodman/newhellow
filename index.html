@@ -6,15 +6,12 @@
           background-color: lightblue; 
           margin: 0px;}
       
-      ul.sidenav {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          width: 25%;
-          background-color: #f1f1f1;
-          position: fixed;
-          height: 100%;
-          overflow: auto; }
+     ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #333; }
       
       h1 {
           color: red;
@@ -43,12 +40,12 @@
 
   <h1>This is a Heading</h1>
   
-  <ul class="sidenav">
+ <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+  <li style="float:right"><a href="#about">About</a></li>
+ </ul>
   
   <p id="p01">I am different</p>
   <p>This is a paragraph.</p>
